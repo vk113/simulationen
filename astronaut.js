@@ -30,7 +30,7 @@ let s1 = function(sketch) {
     sketch.setup = function () {
         const canvas = sketch.createCanvas(300, 700, sketch.WEBGL)
         sketch.noStroke()
-        slider = sketch.createSlider(0, 50000, 5000);
+        slider = sketch.createSlider(0, 20000, 5000);
         show_cone = sketch.createCheckbox('Zeige Blickwinkel', false);
         orbit = sketch.createCheckbox('Bewegen', false);
         text = sketch.createP(distance);
