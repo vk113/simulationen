@@ -28,7 +28,7 @@ let s1 = function(sketch) {
     
     
     sketch.setup = function () {
-        const canvas = sketch.createCanvas(300, 700, sketch.WEBGL)
+        const canvas = sketch.createCanvas(250, 700, sketch.WEBGL)
         sketch.noStroke()
         slider = sketch.createSlider(0, 20000, 5000);
         show_cone = sketch.createCheckbox('Zeige Blickwinkel', false);
@@ -73,7 +73,7 @@ let s2 = function(sketch) {
     }
     
     sketch.setup = function () {
-        const canvas = sketch.createCanvas(1000, 700, sketch.WEBGL)
+        const canvas = sketch.createCanvas(850, 700, sketch.WEBGL)
 
         // easycam2 = sketch.createEasyCam(
         //     {
